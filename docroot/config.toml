@@ -2,7 +2,8 @@
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-baseurl = ""
+canonifyurls = false
+baseurl = "/"
 languageCode = "en-us"
 title = "Hugo Freelancer Theme"
 theme = "hugo-freelancer-theme"
