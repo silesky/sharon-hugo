@@ -1,0 +1,11 @@
+- [x] Name
+-  Links:
+  - [x] Books,
+  - [x] About
+  - CV
+  - Contact
+- Photo
+- Color Scheme
+- Links: About, CV, Contact
+- Books
+- Social Networks

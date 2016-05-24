@@ -12,7 +12,7 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
+    name = "Sharon Solwitz"
     description = "My awesome description"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -29,13 +29,13 @@ theme = "hugo-freelancer-theme"
     email = "your@email.com"
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Sharon Solwitz's Portfolio"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
+        name = "Sharon Solwitz"
         subtitle = "Blogger - Programmer - Gopher"
 
 
