@@ -1,11 +1,13 @@
 - [x] Name
--  Links:
-  - [x] Books,
+-  Links & Body:
+  - [x] Books
   - [x] About
-  - CV
-  - Contact
-- Photo
-- Color Scheme
-- Links: About, CV, Contact
-- Books
-- Social Networks
+  - [x] CV  
+  - [ ] Contact
+- [x] Photo
+- [ ] Color Scheme
+- [ ] Links: About, CV, Contact
+- [ ] Books
+- [ ] Social Networks
+- [ ] Contact Info
+-[ ] Mom.jpg: make circular and transparent

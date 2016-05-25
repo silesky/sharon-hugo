@@ -1,0 +1,25 @@
+
+{{ "<!-- cv Section -->" | safeHTML }}
+<section class="success" id="cv">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ with .Site.Params.cv.title }}{{.}}{{ end }}</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-2">
+            <p>{{ with .Site.Params.cv.left }}{{ . | markdownify }}{{ end }}</p>
+        </div>
+            <div class="col-lg-4">
+                <p>{{ with .Site.Params.cv.right }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="{{ with .Site.Params.cv.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
+                    <i class="fa fa-{{ with .Site.Params.cv.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.cv.button.text }}{{ . }}{{ end }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
